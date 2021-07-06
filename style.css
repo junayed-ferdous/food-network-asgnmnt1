@@ -80,14 +80,15 @@ section {
     background-repeat: no-repeat;
     height: 700px;
     padding-top: 100px;
+    margin-bottom: -50px;
 }
 
 .about-img {
     margin-left: 100px;
 }
 
-.about-intro h2 {
-    text-transform: uppercase;
+.h2 {
+    text-transform: capitalize;
     font-size: 40px;
     margin-top: 150px;
     color: #707070;
@@ -101,11 +102,50 @@ section {
     color: #18191F;
 }
 
+.recipe-intro {
+    text-align: center;
+    margin-bottom: 80px;
+}
 
+.recipe-intro p {
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0 300px;
+}
 
+.recipe-gallery {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
 
+.recipe {
+    box-shadow: 0 0 40px gray;
+    border-radius: 30px;
+    width: 25%;
+    margin-left: 30px;
+}
 
+.recipe-1 {
+    margin-left: 150px;
+}
 
+.recipe-img {
+    width: 80%;
+    border-radius: 30px;
+    margin: 20px 35px 0;
+}
+
+.recipe h3 {
+    font-size: 25px;
+    font-weight: 800;
+    color: #18191F;
+    margin-left: 20px;
+}
+
+.recipe p {
+    margin: 0 20px 20px;
+}
 
 
 
