@@ -17,7 +17,7 @@ section {
 }
 
 .nav-menu {
-    background-color: rgb(56, 56, 56);
+    background-color: #0B0D17;
     height: 80px;
 }
 
@@ -27,9 +27,13 @@ section {
 
 .logo {
     text-decoration: none;
-    color: azure;
+    color: #5B5B5B;
     font-weight: 900;
     font-size: 25px;
+}
+
+.logo .orange {
+    color: #FBA24F;
 }
 
 .nav-button {
@@ -168,6 +172,7 @@ section {
     background-image: url(images/Frame\ 57.jpg);
     background-repeat: no-repeat;
     height: 500px;
+    margin-bottom: 0;
 }
 
 .contact-area {
@@ -191,7 +196,7 @@ section {
 }
 
 .contact-form {
-    margin: 50px 0 0 150px;
+    padding: 50px 0 0 250px;
 }
 
 .contact-form input {
@@ -215,9 +220,16 @@ textarea {
     margin-left: 60px;
 }
 
+footer {
+    text-align: center;
+    background-color: #0B0D17;
+    height: 120px;
+    padding-top: 40px;
+}
 
-
-
+footer p {
+    color: #fff;
+}
 
 
 
