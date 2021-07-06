@@ -109,8 +109,8 @@ section {
 
 .recipe-intro p {
     font-size: 18px;
-    line-height: 20px;
-    margin: 0 300px;
+    line-height: 25px;
+    margin: 0 450px;
 }
 
 .recipe-gallery {
@@ -146,6 +146,81 @@ section {
 .recipe p {
     margin: 0 20px 20px;
 }
+
+.stat-area {
+    display: flex;
+    margin: 0 150px;
+    box-shadow: 0 0 40px gray;
+    border-radius: 10px;
+}
+
+.stat-point {
+    width: 30%;
+    padding-left: 120px;
+}
+
+.stat-point h2 {
+    font-weight: 800;
+    font-size: 42px;
+}
+
+#contact-section {
+    background-image: url(images/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.contact-area {
+    margin: 0 100px;
+}
+
+.contact-intro {
+    margin-top: 100px;
+}
+
+.contact-intro h2 {
+    font-size: 38px;
+    text-shadow: 0 0 30px blue;
+    margin-right: 60px;
+}
+
+.contact-intro p {
+    margin-right: 100px;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+}
+
+.contact-form {
+    margin: 50px 0 0 150px;
+}
+
+.contact-form input {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 10px 100px;
+    
+}
+
+.contact-form input::placeholder, textarea::placeholder {
+    font-family: "montserrat";
+    opacity: .5;
+    text-align: center;
+}
+
+textarea {
+    padding: 65px 65px 0;
+}
+
+.btn {
+    margin-left: 60px;
+}
+
+
+
+
+
+
+
 
 
 
